@@ -1,0 +1,44 @@
+{
+  "name": "2018-ts-module",
+  "version": "1.0.0",
+  "description": "TGRStack TS-Module w/ Declarations, WebPack, and Opinions.",
+  "main": "dist/index.js",
+  "typings": "./dist/index",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "2.10.1",
+    "cz-emoji": "1.1.1",
+    "nps": "5.9.0",
+    "nps-utils": "1.5.0",
+    "standard-version": "4.4.0",
+    "ts-node": "6.0.5",
+    "typescript": "2.9.1"
+  },
+  "scripts": {
+    "start": "nps",
+    "test": "nps test"
+  },
+  "config": {
+    "cz-emoji": {
+      "scopes": [
+        "$user",
+        "$dev",
+        "$ops"
+      ]
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falieson/2018-typescript-module.git"
+  },
+  "keywords": [],
+  "author": "Florian Mettetal <florian.mettetal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Falieson/2018-typescript-module/issues"
+  },
+  "homepage": "https://github.com/Falieson/2018-typescript-module#readme"
+}
