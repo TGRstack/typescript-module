@@ -1,12 +1,10 @@
-/** TS-Module w/ Declarations (Part 1/4)
-  * http://TGRstack.com/#ts-module_articles_part-1
-  * ./src/index.ts (Section 2. Figure 03.)
-**/
-import {default as HelloWorld} from './hello/HelloWorld'
+import { sumArray } from './array/array'
+import HelloWorld from './hello/HelloWorld'
 
-const FirstPart: string = "Hi"
-const LastPart: string = "Earth"
+const FirstPart = 'Sum:'
+const LastPart =  sumArray([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
+// tslint:disable-next-line no-console
 console.log(HelloWorld(FirstPart, LastPart))
 
 export default HelloWorld
